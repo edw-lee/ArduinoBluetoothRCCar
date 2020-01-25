@@ -1,0 +1,8 @@
+Y = 1, X = 0 -> L = 1 0, R = 1 0 (Forward)
+Y = -1, x = 0 -> L = 0 1, R = 0 1 (Reverse)
+Y = 0, X = 1 -> L = 1 0, R = 0 1 (Turn right)
+Y = 0, X = -1 -> L = 0 1, R = 1 0 (Turn left)
+Y = 1, X = 0.5 -> L = 1 0, R = 0.5 0 (Forward right)
+Y = 1, X = -0.5 -> L = 0 0.5, R = 1 0 (Forward left)
+Y = -1, X = 0.5 -> L = 0 1, R = 0 0.5 (Reverse right)
+Y = -1, X = -0.5 -> L = 0 0.5, R = 0 1 (Reverse left)
